@@ -1,0 +1,34 @@
+.navigate {
+    width: 70px;
+
+}
+.res{
+    width: 20rem;
+}
+nav{
+    z-index: 100;
+}
+.hidden-menu {
+    visibility: collapse;
+    /* z-index: 100; */
+}
+
+.container-fluid {
+    padding: 40px 100px;
+    z-index: 0;
+}
+
+.inner {
+    width: 95%;
+    height: 100%;
+    background: #f9f6f6ca;
+    top: 100%;
+    transition: 0.7s;
+    color: #000;
+}
+
+.meal:hover .inner {
+    top: 0%;
+}
+
+
